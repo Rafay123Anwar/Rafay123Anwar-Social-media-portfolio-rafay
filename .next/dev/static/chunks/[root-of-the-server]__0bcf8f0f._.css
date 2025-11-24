@@ -545,6 +545,10 @@ html {
   height: 24rem;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -567,6 +571,10 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .max-w-2xl {
@@ -862,6 +870,10 @@ html {
 
 .to-\[\#2c2c2c\] {
   --tw-gradient-to: #2c2c2c var(--tw-gradient-to-position);
+}
+
+.object-contain {
+  object-fit: contain;
 }
 
 .object-cover {

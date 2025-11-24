@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 
 const navItems = [
@@ -29,8 +30,14 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-xl font-bold text-[#5c4033]">
-              MRA
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/Logo.jpg"
+                alt="MRA Logo"
+                width={50}
+                height={50}
+                className="h-10 w-auto object-contain"
+              />
             </Link>
           </div>
 

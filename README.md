@@ -1,30 +1,30 @@
-# Portfolio website recreation
+# Social Media Portfolio
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/rafay123anwars-projects/v0-portfolio-website-recreation)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/lrO1JzzB8i5)
+A professional portfolio website for a Social Media Manager & Content Creator.
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+This project showcases social media management skills, strategies, and content creation capabilities.
 
-## Deployment
+## Getting Started
 
-Your project is live at:
+First, run the development server:
 
-**[https://vercel.com/rafay123anwars-projects/v0-portfolio-website-recreation](https://vercel.com/rafay123anwars-projects/v0-portfolio-website-recreation)**
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Build your app
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Continue building your app on:
+## Technologies Used
 
-**[https://v0.app/chat/lrO1JzzB8i5](https://v0.app/chat/lrO1JzzB8i5)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Next.js
+- Tailwind CSS
+- Shadcn UI
+- Lucide React

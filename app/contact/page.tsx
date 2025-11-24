@@ -36,7 +36,7 @@ export default function ContactPage() {
 
     try {
       // Send email via formspree or custom API
-      const response = await fetch("https://formspree.io/f/xyzgqlnl", {
+      const response = await fetch("https://formspree.io/f/mjkdglng", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
